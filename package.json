@@ -3,11 +3,18 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "deploy": "gh-pages -d . --nojekyll"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "tailwindcss": "^4.1.11"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "touch-cli": "^0.0.1"
   }
 }
