@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@theme {
+    --spacing-utof: 100px;
+    --font-sans: 'Space Grotesk', sans-serif;
+}
+
+.bitch {
+    color: pink;
+}
